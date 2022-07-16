@@ -1,7 +1,7 @@
 import React from 'react';
 import Article from './Article';
 
-function Article({posts}) {
+function ArticleList({posts}) {
 
   const PostItems=posts.map((post)=>{
     return <Article
@@ -20,4 +20,4 @@ function Article({posts}) {
   )
 }
 
-export default Article;
+export default ArticleList;
